@@ -1,0 +1,47 @@
+🔹 What is Flutter?
+
+Flutter is a framework made by Google.
+
+It is used to build mobile apps (Android/iOS), web apps, and desktop apps from one codebase.
+
+Flutter uses widgets for everything (text, button, layout → all are widgets).
+
+
+
+🔹 What is Dart?
+
+Dart is the programming language used by Flutter.
+
+Google created Dart.
+
+It is similar to Java, C#, JavaScript → so it feels easy if you know them.
+
+Dart is fast, object-oriented, and supports async programming (important for apps).
+
+
+
+🔹 Explanation of Structure
+
+import 'package:flutter/material.dart';
+→ Imports Flutter’s Material Design widgets.
+
+main()
+→ Entry point of the app.
+
+runApp()
+→ Runs the app and attaches it to the screen.
+
+MyApp (extends StatelessWidget)
+→ Your app’s root widget (everything starts here).
+
+MaterialApp
+→ Provides global app settings (theme, routes, etc.).
+
+Scaffold
+→ Gives a page layout (AppBar, Body, Drawer, etc.).
+
+AppBar
+→ The top navigation bar.
+
+Body (Center + Text)
+→ Main screen content, here it shows "Hello Flutter!".
