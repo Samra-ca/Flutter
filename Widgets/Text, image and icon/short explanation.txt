@@ -1,0 +1,64 @@
+1. Import
+
+import 'package:flutter/material.dart'; → Brings in Flutter’s Material Design widgets.
+
+
+2. Main Function
+
+main() → Entry point, runs the app with MyApp().
+
+
+3. StatelessWidget
+
+MyApp → UI doesn’t change dynamically.
+
+
+4. MaterialApp
+
+Provides Material Design structure, themes, navigation.
+
+
+5. Scaffold
+
+Basic page layout with AppBar (top bar) and body (content area).
+
+
+6. AppBar
+
+Displays a top title bar: "Widget Example".
+
+
+7. Center
+
+Centers its child horizontally and vertically.
+
+
+8. Column
+
+Stacks widgets vertically.
+
+mainAxisAlignment.center → centers content vertically.
+
+
+9. Text
+
+Displays "Hello Flutter World!".
+
+Styled with font size, bold, color, and letter spacing.
+
+
+10. SizedBox
+
+Adds vertical space between widgets (height: 20).
+
+
+11. Icon
+
+Shows a heart icon (Icons.favorite), red, size 50.
+
+
+12. Image.network
+
+Loads image from URL.
+
+Fixed size (150x150), BoxFit.cover scales image to fill.
