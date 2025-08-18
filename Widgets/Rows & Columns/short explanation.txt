@@ -1,0 +1,49 @@
+1. What is Row?
+
+A layout widget that arranges its children horizontally (left to right).
+
+
+2. Why use Row?
+
+To display widgets side by side (icons, buttons, images, text).
+
+Example: navigation buttons, star ratings, horizontal menus.
+
+
+3. Key Properties of Row
+
+mainAxisAlignment → controls horizontal placement (start, center, end, spaceBetween, etc.).
+
+crossAxisAlignment → controls vertical alignment of items inside the Row (top, center, bottom).
+
+children → list of widgets inside the Row.
+
+
+4. What is Column?
+
+A layout widget that arranges its children vertically (top to bottom).
+
+
+5. Why use Column?
+
+To display widgets one below another.
+
+Example: forms (Name, Email, Password), profile details, menu lists.
+
+
+6. Key Properties of Column
+
+mainAxisAlignment → controls vertical placement (start, center, end, spaceAround, etc.).
+
+crossAxisAlignment → controls horizontal alignment of items inside the Column (left, center, right).
+
+children → list of widgets inside the Column.
+
+
+7. Row vs Column (Quick Difference)
+
+Row → horizontal layout.
+
+Column → vertical layout.
+
+Both can be nested to build complex UI.
