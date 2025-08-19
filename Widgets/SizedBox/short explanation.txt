@@ -1,0 +1,43 @@
+1. What is SizedBox?
+
+A layout widget in Flutter used to create fixed space or fixed-size boxes.
+
+Can be used with or without a child widget.
+
+
+
+2. Why use SizedBox?
+
+To add spacing between widgets in a Column, Row, or other layouts.
+
+To control the size of a child widget explicitly.
+
+Keeps the layout clean and readable.
+
+
+
+3. Key Properties
+
+height → vertical space or fixed height for child.
+
+width → horizontal space or fixed width for child.
+
+child → optional widget inside the SizedBox, which will adopt the given width and height.
+
+
+
+4. How it Works
+
+Without child → acts as empty space.
+
+With child → forces the child to the specified width and height.
+
+
+
+5. When to Use
+
+Between widgets to add vertical or horizontal gaps.
+
+To set a fixed size for a button, image, or text.
+
+Useful in both Row and Column layouts.
