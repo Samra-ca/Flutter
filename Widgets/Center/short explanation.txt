@@ -1,0 +1,39 @@
+1. What is Center?
+
+Center is a layout widget in Flutter.
+
+It places its child exactly in the middle of the available space (both vertically and horizontally).
+
+
+
+2. Why use Center?
+
+To make a widget appear in the center of the screen or inside a parent container.
+
+Helps create balanced and visually appealing layouts without manually adjusting padding or alignment.
+
+
+
+3. Key Properties
+
+child → The widget you want to center (can be Text, Icon, Image, Row, Column, etc.).
+
+No other mandatory properties — simple and lightweight.
+
+
+
+4. How it Works
+
+Wrap any widget inside Center.
+
+The widget automatically moves to the exact center of its parent.
+
+Can also be used inside other layout widgets like Column or Row to center specific elements.
+
+
+
+5. When to Use
+
+To center single widgets on the screen (text, icon, button).
+
+To simplify layout instead of manually using padding or alignment.
