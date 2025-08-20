@@ -1,0 +1,54 @@
+1. Purpose of TextField
+
+The TextField widget in Flutter is used to take user input (like name, email, password, etc.).
+
+It allows typing text inside the app and can be styled or customized.
+
+
+
+2. Important Properties
+🔹 decoration
+
+Controls the look and feel of the text field.
+
+Inside decoration, we often use InputDecoration.
+
+🔹 InputDecoration Options
+
+labelText → A small label shown above the field (e.g., "Enter your name").
+
+hintText → Placeholder text inside the box before typing (e.g., "Type here...").
+
+border → Defines the shape of the box (e.g., OutlineInputBorder).
+
+prefixIcon → Adds an icon inside the field (e.g., person icon before text).
+
+🔹 keyboardType
+
+Decides which keyboard type will open.
+
+Example:
+
+TextInputType.text → Normal typing
+
+TextInputType.number → Number keypad
+
+TextInputType.emailAddress → Email keyboard
+
+🔹 obscureText
+
+Used to hide characters (e.g., when entering a password).
+
+true → hides input (shows ●●●● instead).
+
+false → shows normal text.
+
+
+
+3. Use Cases
+
+Login forms → username, password.
+
+Search bars → take user search input.
+
+Registration forms → collect name, email, phone, etc.
