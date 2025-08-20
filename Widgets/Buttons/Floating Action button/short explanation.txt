@@ -1,0 +1,52 @@
+1. What is a FloatingActionButton?
+
+A round button that floats above the UI.
+
+Commonly used for primary actions like Add, Create, Compose, or Navigate.
+
+Usually placed at the bottom-right corner of the screen by default.
+
+
+
+2. Key Properties Used
+🔹 floatingActionButton
+
+A special property of the Scaffold widget.
+
+This is where you place the FloatingActionButton in your layout.
+
+🔹 onPressed
+
+Defines the action performed when the FAB is tapped.
+
+Example: printing a message, navigating to another page, or adding a new item.
+
+🔹 child
+
+The widget inside the button (commonly an Icon).
+
+In the example: Icon(Icons.add) displays a plus sign.
+
+🔹 backgroundColor
+
+Changes the background color of the FAB.
+
+Example: Colors.purple.
+
+
+
+3. Where is FAB Used?
+
+Adding new items (e.g., add a task in To-Do app).
+
+Navigation shortcut (e.g., open a chat in messaging apps).
+
+Important actions that the user is expected to perform frequently.
+
+
+
+4. Default Placement
+
+By default, FAB appears at the bottom-right corner.
+
+Can be customized using floatingActionButtonLocation.
