@@ -1,0 +1,49 @@
+🔹 What is Align?
+
+The Align widget is used in Flutter to position its child widget inside itself according to a given alignment.
+
+
+
+🔹 Why Use Align?
+
+To control the exact position of a widget inside its parent.
+
+Useful when you don’t want your widget always in the center or default position.
+
+Helps in custom layouts (like top-right logos, bottom text, etc.).
+
+
+
+🔹 Key Properties
+
+alignment
+
+Defines where the child will be placed (e.g., Alignment.topRight, Alignment.center, Alignment.bottomLeft).
+
+Range: from -1.0 (left/top) to 1.0 (right/bottom).
+
+child
+
+The widget you want to position (e.g., Text, Icon, Image).
+
+
+
+🔹 Common Alignments
+
+Alignment.center → Puts child in the middle.
+
+Alignment.topLeft → Places child at top-left.
+
+Alignment.bottomRight → Places child at bottom-right.
+
+Alignment(0.5, -0.5) → Custom alignment using X, Y values.
+
+
+
+🔹 When to Use Align?
+
+When you need precise placement of widgets.
+
+When Row/Column can’t achieve the desired position.
+
+For floating or overlay elements like badges, corner buttons, watermarks.
