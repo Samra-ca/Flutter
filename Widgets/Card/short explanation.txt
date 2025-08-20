@@ -1,0 +1,33 @@
+🔹 What is a Card?
+
+A Card is a material design container with:
+
+Rounded corners
+
+A drop shadow (elevation)
+
+Usually used to display information in a structured way (like profile info, product details, etc.)
+
+
+
+🔹 Key Properties of Card
+
+elevation → controls shadow depth.
+
+shape → defines border shape (rounded, circular, etc.).
+
+color → background color.
+
+margin → spacing around the card.
+
+child → widget inside the card (often Column, Row, or ListTile).
+
+
+
+🔹 Example Use Cases
+
+Info Box (like profile info, weather info).
+
+Product Display (with image + description).
+
+Clickable Card (like dashboard shortcuts).
