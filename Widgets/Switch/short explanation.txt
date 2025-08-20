@@ -1,0 +1,53 @@
+🔹 What is a Switch?
+
+A Switch is a widget in Flutter that allows the user to toggle between two states:
+
+ON (true)
+
+OFF (false)
+
+It’s mostly used for settings and preferences like enabling notifications, Wi-Fi, or dark mode.
+
+
+
+🔹 Key Properties of Switch
+
+value
+
+A boolean (true/false) that defines the current state of the switch.
+
+Example: true → ON, false → OFF.
+
+onChanged
+
+A callback function that triggers whenever the user toggles the switch.
+
+It gives the new boolean value (true/false).
+
+Colors (Optional)
+
+activeColor: The color of the switch when it’s ON.
+
+inactiveThumbColor: The color of the thumb when it’s OFF.
+
+
+
+🔹 How it Works
+
+The Switch displays according to the value.
+
+If value = true → Switch is ON.
+
+If value = false → Switch is OFF.
+
+When the user taps it, the onChanged function is called with the new value.
+
+You usually wrap it in setState (inside StatefulWidget) to update the UI instantly.
+
+
+
+🔹 Real-Life Example
+
+Wi-Fi ON/OFF toggle in mobile settings.
+
+Dark mode ON/OFF switch in apps.
