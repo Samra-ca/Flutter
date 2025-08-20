@@ -1,0 +1,50 @@
+1. Purpose of Checkbox
+
+A Checkbox allows users to make a true/false (yes/no) choice.
+
+Commonly used in forms, settings, or to enable/disable options.
+
+
+
+2. Key Properties
+🔹 value
+
+Represents the current state of the checkbox.
+
+true → checked ✅
+
+false → unchecked ⬜
+
+🔹 onChanged
+
+A function that is triggered when the checkbox is tapped.
+
+It provides the new value (true or false).
+
+Usually used with setState to update the UI dynamically.
+
+🔹 activeColor (optional)
+
+Defines the color of the checkbox when it is selected (e.g., green, blue).
+
+
+
+3. How it Works
+
+User taps the checkbox.
+
+onChanged is called with the new state.
+
+The state variable (e.g., isChecked) is updated.
+
+UI refreshes to reflect the new checked/unchecked status.
+
+
+
+4. Use Cases
+
+Accepting terms & conditions ✅
+
+Selecting multiple preferences/options
+
+Turning a feature on/off in settings
