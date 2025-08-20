@@ -1,0 +1,55 @@
+🔹 What is IconButton?
+
+IconButton is a Flutter widget that creates a clickable button with an icon instead of text.
+
+It’s widely used for actions like like, share, favorite, settings, etc.
+
+
+
+🔹 Key Properties
+
+icon
+
+The actual icon displayed on the button.
+
+Example: Icons.thumb_up, Icons.settings.
+
+onPressed
+
+A callback function that runs when the button is pressed.
+
+Example: show a message, navigate, or update UI.
+
+color
+
+Sets the color of the icon.
+
+Example: Colors.blue, Colors.red.
+
+iconSize
+
+Controls the size of the icon in pixels.
+
+Default is 24.0, but you can increase or decrease.
+
+
+
+🔹 Behavior
+
+IconButton has no text, only an icon.
+
+It is usually transparent (doesn’t have a background by default).
+
+When pressed, it executes the onPressed function.
+
+
+
+🔹 Example Use Cases
+
+Like button → Icons.thumb_up
+
+Favorite button → Icons.favorite
+
+Settings button → Icons.settings
+
+Delete button → Icons.delete
