@@ -1,0 +1,53 @@
+🔹 What is ElevatedButton?
+
+A material design button that looks raised with a shadow.
+
+Commonly used for primary actions (important tasks) in an app.
+
+
+
+🔹 Why Use ElevatedButton?
+
+Makes important buttons stand out.
+
+Provides built-in styling (raised effect, background color, ripple effect).
+
+Automatically adapts to app themes.
+
+
+
+🔹 Key Properties of ElevatedButton
+
+onPressed
+
+Defines the action when the button is tapped.
+
+Example: navigate to a new page, show a message, perform a task.
+
+child
+
+Content inside the button.
+
+Usually a Text, but can also hold Icon or even Row with both.
+
+style (optional)
+
+Allows customization of colors, shapes, size, and padding.
+
+
+
+🔹 When to Use ElevatedButton?
+
+For main actions on a screen (like "Submit", "Save", "Next").
+
+When you want the button to look important and stand out compared to flat buttons.
+
+
+
+🔹 Example Use Case
+
+Login screen → “Login” button.
+
+Form → “Submit” button.
+
+Shopping app → “Add to Cart” button.
