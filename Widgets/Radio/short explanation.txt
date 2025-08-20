@@ -1,0 +1,52 @@
+1. What is Radio?
+
+The Radio widget in Flutter is used to select one option from a group of options.
+
+Unlike Checkbox (which allows multiple selections), Radio works in a group, so only one can be selected at a time.
+
+
+
+2. Important Properties
+🔹 value
+
+Represents the value of this specific radio option.
+
+Example: "Option 1"
+
+🔹 groupValue
+
+The currently selected value for the whole group of radios.
+
+If groupValue matches this Radio’s value, then this radio will appear selected.
+
+🔹 onChanged
+
+A function that runs when the user taps on the radio.
+
+Updates the groupValue to the new value.
+
+Usually wrapped with setState() inside a StatefulWidget.
+
+
+
+3. How It Works Step by Step
+
+Each Radio has its own value.
+
+All radios in the same group share a common groupValue.
+
+Flutter checks:
+
+If value == groupValue, that radio is selected.
+
+Otherwise, it’s unselected.
+
+When tapped, onChanged updates the state, setting groupValue = value.
+
+
+
+4. Example Use Case
+
+Gender Selection: Male / Female / Other → Only one can be chosen.
+
+Payment Method: Cash / Card / Online → Only one can be active at a time.
