@@ -1,0 +1,61 @@
+1. Definition
+
+GridView is a scrollable widget that displays items in a grid layout (rows and columns).
+
+Useful for image galleries, product catalogs, dashboards, etc.
+
+
+
+2. Types of GridView
+
+GridView.count
+
+Specify the number of columns using crossAxisCount.
+
+Example: 2 columns → items arranged in 2 per row.
+
+GridView.extent
+
+Specify the maximum width of each item using maxCrossAxisExtent.
+
+Flutter automatically calculates number of columns based on available width.
+
+GridView.builder
+
+Dynamically builds items using an itemBuilder.
+
+Efficient for large or infinite grids.
+
+GridView.custom
+
+Allows custom SliverGridDelegate for advanced layouts.
+
+
+
+3. Key Properties
+
+children → List of widgets to display (for GridView.count/extent).
+
+crossAxisCount → Number of columns.
+
+mainAxisSpacing → Space between rows.
+
+crossAxisSpacing → Space between columns.
+
+childAspectRatio → Width-to-height ratio of each item.
+
+scrollDirection → Vertical or horizontal scrolling.
+
+padding → Space around the grid.
+
+
+
+4. Common Use-Cases
+
+Photo gallery → grid of images.
+
+Product catalog → e-commerce apps.
+
+Dashboard icons → shortcut menu in a grid.
+
+Card layouts → cards arranged evenly.
