@@ -1,0 +1,49 @@
+🔹 What is AppBar?
+
+The AppBar is a material design widget in Flutter that appears at the top of the screen. It usually contains the app’s title, navigation icons, and actions.
+
+
+
+🔹 Main Components of AppBar
+
+Title
+
+A text or widget displayed in the center or left side of the AppBar.
+
+Example: Text("My App").
+
+Leading
+
+A widget (usually an icon) shown on the left side of the AppBar.
+
+Commonly used for navigation drawer menu (Icon(Icons.menu)).
+
+Actions
+
+A list of widgets (usually icons) displayed on the right side of the AppBar.
+
+Example: search, settings, notifications icons.
+
+Background Color
+
+Defines the AppBar’s background.
+
+Example: backgroundColor: Colors.blue.
+
+Elevation
+
+Controls the shadow depth under the AppBar.
+
+Higher values = bigger shadow.
+
+
+
+🔹 Use Cases
+
+Displaying app title.
+
+Providing navigation controls (menu, back button).
+
+Showing quick actions (search, settings, notifications).
+
+Integrating with TabBar for top navigation.
