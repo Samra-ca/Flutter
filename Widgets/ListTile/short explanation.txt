@@ -1,0 +1,66 @@
+📌 ListTile Widget in Flutter
+1. Definition
+
+ListTile is a prebuilt row layout in Flutter.
+
+It combines text, icons, and interactive behavior into a single row.
+
+Commonly used in lists, menus, and settings screens.
+
+
+
+2. Main Components
+
+Leading
+
+Appears on the left side.
+
+Usually an icon, image, or avatar.
+
+Title
+
+The main bold text.
+
+Example: Contact name, menu item, setting name.
+
+Subtitle
+
+An optional smaller text under the title.
+
+Example: Email address under a contact name.
+
+Trailing
+
+Appears on the right side.
+
+Often an arrow, switch, or action button.
+
+onTap
+
+A callback that triggers when the tile is tapped.
+
+Makes the row interactive.
+
+
+
+3. Features
+
+Compact: Packs multiple widgets into one row.
+
+Consistent UI: Matches Material Design standards.
+
+Interactive: Supports tap, long press, and actions.
+
+Flexible: You can put any widget in leading and trailing.
+
+
+
+4. Where to Use
+
+Settings screens (Wi-Fi, Bluetooth, Notifications).
+
+Navigation menus (Inbox, Sent, Drafts).
+
+Contact or chat lists (Avatar + Name + Last Message).
+
+Option lists (Language, Theme, Privacy).
