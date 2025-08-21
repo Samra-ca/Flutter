@@ -1,0 +1,42 @@
+🔹 What is Expanded?
+
+The Expanded widget in Flutter is used inside Row, Column, or Flex layouts.
+It tells its child to take up the remaining available space in the main axis (horizontal for Row, vertical for Column).
+
+
+
+🔹 Why Use Expanded?
+
+To avoid manually calculating sizes.
+
+To make widgets automatically adjust according to screen size.
+
+To create flexible, responsive layouts.
+
+
+
+🔹 How Expanded Works
+
+It must be placed inside Row, Column, or Flex.
+
+It expands the child to fill available space.
+
+Multiple Expanded widgets share space proportionally using the flex property.
+
+
+
+🔹 Key Properties
+
+child → The widget to expand.
+
+flex → Determines how much space each Expanded should take relative to others. (Default = 1).
+
+
+
+🔹 Example Use Cases
+
+Filling vertical space between header and footer.
+
+Distributing equal horizontal space among buttons.
+
+Creating flexible UI layouts that work on all screen sizes.
