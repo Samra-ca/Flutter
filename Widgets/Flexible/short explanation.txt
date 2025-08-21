@@ -1,0 +1,48 @@
+🔹 What is Flexible?
+
+The Flexible widget in Flutter is used inside Row, Column, or Flex to control how a child widget should resize within the available space.
+Unlike Expanded, it allows the child to take only the space it needs (or shrink/expand) instead of forcing it to fill all available space.
+
+
+
+🔹 Why Use Flexible?
+
+To give children room to adjust without stretching unnecessarily.
+
+To make UI responsive but not always full-sized.
+
+To prevent overflow issues in Rows/Columns.
+
+
+
+🔹 How Flexible Works
+
+It adjusts its child proportionally using the flex property.
+
+If fit: FlexFit.loose → child takes only needed space (default).
+
+If fit: FlexFit.tight → child behaves like Expanded (fills space).
+
+
+
+🔹 Key Properties
+
+child → The widget to be resized flexibly.
+
+flex → Shares space ratio with other Flexible/Expanded widgets.
+
+fit → Controls how the child fills space:
+
+FlexFit.loose → takes minimum space.
+
+FlexFit.tight → takes maximum space (like Expanded).
+
+
+
+🔹 Example Use Cases
+
+Making some widgets resize flexibly while others remain fixed.
+
+Allowing text or images to shrink without overflowing.
+
+Giving more priority to one child while keeping others smaller.
