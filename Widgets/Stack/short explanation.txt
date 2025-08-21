@@ -1,0 +1,73 @@
+1. Definition
+
+Stack is a layout widget that allows overlapping of child widgets.
+
+Children are stacked from bottom to top, i.e., the first child is at the bottom, the last child is on top.
+
+Useful for creating layered UI, like images with text overlays, buttons on images, badges, etc.
+
+
+
+2. Core Properties
+
+children
+
+A list of widgets to be stacked.
+
+Order matters: the first child is at the bottom layer.
+
+alignment
+
+Determines default alignment of children inside the Stack.
+
+Examples: Alignment.center, Alignment.topLeft.
+
+fit
+
+Defines how non-positioned children are sized.
+
+Common options:
+
+StackFit.loose → children take their natural size
+
+StackFit.expand → children expand to fill the Stack
+
+overflow (deprecated, replaced with clipBehavior)
+
+Controls how children outside the bounds are displayed or clipped.
+
+
+
+3. Positioning Children
+
+Non-positioned children → follow the alignment property.
+
+Positioned children → wrapped in Positioned widget to set exact location:
+
+top, bottom, left, right
+
+width, height
+
+
+
+4. Common Use-Cases
+
+Profile picture with edit button (icon overlay).
+
+Text or labels on images.
+
+Cards with badges.
+
+Game UI elements (like layered sprites).
+
+Custom buttons on top of backgrounds.
+
+
+
+5. Tips
+
+Use Stack when you need layering, but avoid unnecessary nesting, as it can affect performance.
+
+Combine with Positioned to create precise layouts.
+
+Pair with Align or FractionallySizedBox for responsive positioning.
