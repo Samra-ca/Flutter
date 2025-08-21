@@ -1,0 +1,59 @@
+1. Definition
+
+ListView is a scrollable list of widgets arranged vertically (by default) or horizontally.
+
+Useful for long lists, like messages, contacts, or news feeds.
+
+
+
+2. Types of ListView
+
+ListView() / ListView(children: [...])
+
+Simple list with all items provided as children.
+
+Good for small lists.
+
+ListView.builder()
+
+Dynamically builds list items using an itemBuilder.
+
+Efficient for large or infinite lists.
+
+ListView.separated()
+
+Builds list with a separator widget (like Divider) between items.
+
+ListView.custom()
+
+For advanced, custom scrollable lists.
+
+
+
+3. Key Properties
+
+children → List of widgets (for static lists).
+
+itemCount → Number of items (for builder).
+
+itemBuilder → Function to build each item dynamically.
+
+scrollDirection → Vertical or horizontal scrolling.
+
+padding → Space around the list.
+
+reverse → Reverse the scroll order.
+
+shrinkWrap → If true, ListView takes minimum space needed.
+
+
+
+4. Common Use-Cases
+
+Chat messages → scrollable conversation.
+
+Contact lists → long vertical lists.
+
+Feed/news → social media apps.
+
+Settings/options → scrollable menu.
