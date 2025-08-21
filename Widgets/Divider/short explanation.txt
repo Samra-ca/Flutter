@@ -1,0 +1,45 @@
+🔹 What is Divider in Flutter?
+
+The Divider widget in Flutter is a thin horizontal line used to visually separate content. It improves readability and organizes UI elements.
+
+
+
+🔹 Key Properties of Divider
+
+color
+
+Defines the color of the line.
+
+Example: black, grey, blue, etc.
+
+thickness
+
+Controls how bold or thin the line appears.
+
+Default is 0.0 (hairline).
+
+indent
+
+Adds spacing before the line starts (from the left).
+
+endIndent
+
+Adds spacing after the line ends (from the right).
+
+
+
+🔹 Usage of Divider
+
+Commonly used in Lists (like menus, settings, or contact apps).
+
+Helps to separate sections of text or widgets.
+
+Makes the UI cleaner and structured.
+
+
+
+🔹 Difference Between Divider and VerticalDivider
+
+Divider → Draws a horizontal line.
+
+VerticalDivider → Draws a vertical line (commonly used inside a Row).
