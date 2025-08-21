@@ -1,0 +1,41 @@
+🔹 What is Scaffold in Flutter?
+
+The Scaffold widget is the basic structure/layout for a Flutter page. It provides the visual framework for material design apps.
+
+
+
+🔹 Key Features of Scaffold
+
+AppBar
+
+A top bar with title, icons, or actions.
+
+Body
+
+Main content of the screen (e.g., text, lists, images).
+
+FloatingActionButton
+
+A circular button usually for main actions (e.g., add, edit).
+
+Drawer
+
+A side navigation panel (opens with a swipe or menu button).
+
+BottomNavigationBar
+
+A bar at the bottom to navigate between different screens.
+
+SnackBar Support
+
+Can show temporary messages at the bottom.
+
+
+
+🔹 Why Use Scaffold?
+
+Gives a ready-to-use layout for standard app screens.
+
+Saves time by providing common UI elements (app bar, drawer, FAB).
+
+Maintains Material Design consistency.
