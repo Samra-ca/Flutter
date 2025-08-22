@@ -1,0 +1,44 @@
+🔹 What is Drawer?
+
+The Drawer in Flutter is a side navigation panel that slides from the left (or right) side of the screen.
+It is commonly used for navigation menus, profile info, or app options.
+
+
+
+🔹 Key Components of Drawer
+
+DrawerHeader
+
+Top section of the drawer.
+
+Usually contains app logo, user name, or profile picture.
+
+ListTile
+
+Used for each menu item inside the drawer.
+
+Can include icon, title, subtitle, and onTap action.
+
+Divider
+
+Optional, used to separate sections in the drawer.
+
+
+
+🔹 Why Use Drawer?
+
+Provides easy navigation across different sections of the app.
+
+Saves screen space compared to permanent side menus.
+
+Supports Material Design standards.
+
+
+
+🔹 Common Use-Cases
+
+Profile and account settings.
+
+Navigation to different screens (Home, Profile, Settings).
+
+Quick actions or links in the app.
