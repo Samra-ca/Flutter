@@ -1,0 +1,51 @@
+🔹 What is BottomNavigationBar?
+
+The BottomNavigationBar in Flutter is a bar at the bottom of the screen used for switching between different app sections or tabs.
+
+
+
+🔹 Key Components
+
+items
+
+List of BottomNavigationBarItems.
+
+Each item has an icon and label.
+
+currentIndex
+
+Indicates the currently selected tab.
+
+onTap
+
+Callback triggered when a tab is tapped.
+
+Typically updates currentIndex to switch content.
+
+backgroundColor
+
+Sets the color of the bottom bar.
+
+selectedItemColor / unselectedItemColor
+
+Colors for selected and unselected tabs.
+
+
+
+🔹 Why Use BottomNavigationBar?
+
+Provides easy navigation across main sections.
+
+Improves user experience by keeping tabs always accessible.
+
+Maintains Material Design consistency.
+
+
+
+🔹 Common Use-Cases
+
+Switching between Home, Search, Profile screens.
+
+Quickly accessing important app sections.
+
+Tabs with icons and text for visual clarity.
