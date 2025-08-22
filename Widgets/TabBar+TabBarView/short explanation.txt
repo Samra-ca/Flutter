@@ -1,0 +1,43 @@
+🔹 What is TabBar / TabBarView?
+
+TabBar: A horizontal row of tabs, usually placed below AppBar.
+
+TabBarView: Displays content for each tab, swiping horizontally switches pages.
+
+Together, they allow switching between multiple pages inside a single screen.
+
+
+
+🔹 Key Components
+
+TabBar
+
+tabs → List of Tab widgets with icon, text, or both.
+
+controller → A TabController to manage tab switching.
+
+TabBarView
+
+children → List of widgets, one per tab.
+
+Works with the same TabController as TabBar.
+
+
+
+🔹 Why Use TabBar / TabBarView?
+
+Organizes content into sections/tabs.
+
+Allows quick navigation between pages without leaving the screen.
+
+Works well with Material Design apps.
+
+
+
+🔹 Common Use-Cases
+
+Switching between Chats, Status, Calls in messaging apps.
+
+Browsing multiple categories in shopping apps.
+
+Dashboard with different metrics or panels.
