@@ -1,0 +1,39 @@
+🔹 What is Wrap?
+
+The Wrap widget in Flutter is used to display child widgets horizontally or vertically and automatically wrap to the next line when there isn’t enough space.
+
+Unlike Row or Column, it prevents overflow by moving items to the next line.
+
+
+
+🔹 Key Properties
+
+direction → Axis.horizontal (default) or Axis.vertical.
+
+spacing → Horizontal space between children.
+
+runSpacing → Vertical space between lines (runs).
+
+alignment / runAlignment → Align children within the main axis or across runs.
+
+children → List of widgets to display inside Wrap.
+
+
+
+🔹 Why Use Wrap?
+
+Automatically handles overflow issues in rows or columns.
+
+Ideal for tags, chips, buttons, or image grids.
+
+Provides flexible layout for dynamic content.
+
+
+
+🔹 Common Use-Cases
+
+Displaying tags or chips in a list.
+
+Wrapping buttons or icons dynamically.
+
+Displaying images that adapt to different screen widths.
