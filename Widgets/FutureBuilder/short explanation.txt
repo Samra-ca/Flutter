@@ -1,0 +1,41 @@
+🔹 What is FutureBuilder?
+
+FutureBuilder is a Flutter widget used to handle asynchronous data.
+
+It builds UI based on the state of a Future (e.g., data loading, success, or error).
+
+Ideal for API calls, file reading, or delayed computations.
+
+
+
+🔹 Key Properties
+
+future → The Future object to wait for (e.g., API request).
+
+builder → Function that returns a widget based on snapshot state.
+
+snapshot.connectionState → Shows if Future is waiting, active, or done.
+
+snapshot.hasData → True if data is available.
+
+snapshot.hasError → True if Future encountered an error.
+
+
+
+🔹 Why Use FutureBuilder?
+
+Automatically updates the UI when data is ready.
+
+Simplifies asynchronous programming in Flutter.
+
+Avoids manual setState and loading handling for async tasks.
+
+
+
+🔹 Common Use-Cases
+
+Fetching API data and showing it in a list or grid.
+
+Reading local files or databases asynchronously.
+
+Delaying UI display until data is loaded.
