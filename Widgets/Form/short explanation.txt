@@ -1,0 +1,43 @@
+🔹 What is Form?
+
+Form in Flutter is a container for input fields that allows validation, saving, and resetting of multiple inputs together.
+
+It is usually paired with TextFormField widgets.
+
+
+
+🔹 Key Components
+
+Form
+
+Wraps input fields and manages their state using a GlobalKey.
+
+TextFormField
+
+Input field inside a Form.
+
+Supports validators, onSaved, and controller.
+
+GlobalKey<FormState>
+
+Used to validate or save the form programmatically.
+
+
+
+🔹 Why Use Form?
+
+Ensures all inputs are validated together before submission.
+
+Avoids manually validating each field individually.
+
+Makes building login, signup, or data entry forms easy and consistent.
+
+
+
+🔹 Common Use-Cases
+
+Login or signup screens.
+
+Feedback or contact forms.
+
+Multi-field data entry with validation rules.
