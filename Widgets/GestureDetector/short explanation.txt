@@ -1,0 +1,39 @@
+🔹 What is GestureDetector?
+
+GestureDetector is a Flutter widget that detects user gestures on its child widget.
+
+It allows you to handle taps, double-taps, long presses, swipes, drags, and more.
+
+
+
+🔹 Key Properties / Callbacks
+
+onTap → Triggered when the user taps the widget.
+
+onDoubleTap → Triggered on double-tap.
+
+onLongPress → Triggered when pressed and held.
+
+onPanUpdate / onPanStart / onPanEnd → Detect drag gestures.
+
+child → The widget that responds to gestures.
+
+
+
+🔹 Why Use GestureDetector?
+
+Makes non-button widgets interactive.
+
+Allows custom gestures beyond standard buttons.
+
+Essential for swipeable cards, draggable widgets, or custom animations.
+
+
+
+🔹 Common Use-Cases
+
+Detecting tap on images or containers.
+
+Implementing swipe-to-delete functionality.
+
+Triggering animations or page transitions on gestures.
