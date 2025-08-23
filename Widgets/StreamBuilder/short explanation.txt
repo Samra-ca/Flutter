@@ -1,0 +1,41 @@
+🔹 What is StreamBuilder?
+
+StreamBuilder is a Flutter widget used to handle real-time or continuous data from a Stream.
+
+It automatically rebuilds the UI whenever new data is emitted.
+
+Ideal for chat apps, live feeds, or sensors.
+
+
+
+🔹 Key Properties
+
+stream → The Stream that provides continuous data.
+
+builder → Function that returns a widget based on snapshot state.
+
+snapshot.connectionState → Shows if stream is active, waiting, or done.
+
+snapshot.hasData → True if stream has emitted data.
+
+snapshot.hasError → True if stream emitted an error.
+
+
+
+🔹 Why Use StreamBuilder?
+
+Automatically updates UI in real-time.
+
+Avoids manual setState for stream data.
+
+Works seamlessly with async event streams.
+
+
+
+🔹 Common Use-Cases
+
+Chat messages in messaging apps.
+
+Live stock prices or financial dashboards.
+
+Sensor readings, GPS, or IoT real-time data.
