@@ -1,0 +1,35 @@
+🔹 What is SafeArea?
+
+SafeArea is a widget that automatically adds padding to its child to avoid system UI intrusions.
+
+It prevents content from being covered by notch, status bar, navigation bar, or rounded corners.
+
+
+
+🔹 Key Properties
+
+child → The widget you want to protect from system UI.
+
+left, top, right, bottom → Booleans to enable/disable padding on specific sides.
+
+minimum → Adds extra padding beyond the system safe area.
+
+
+
+🔹 Why Use SafeArea?
+
+Ensures content is visible and accessible on all devices.
+
+Avoids clipping under notch or status bar.
+
+Makes UI responsive across different screen sizes and devices.
+
+
+
+🔹 Common Use-Cases
+
+Wrapping the main page content.
+
+Preventing buttons or text from being hidden behind system UI.
+
+Protecting full-screen images or scrollable lists.
