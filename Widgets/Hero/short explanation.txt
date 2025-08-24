@@ -1,0 +1,29 @@
+🔹 What is Hero Widget?
+
+The Hero widget in Flutter allows smooth animations when navigating between two screens. It creates a shared element transition where a widget "flies" from one screen to another.
+
+
+
+🔹 Key Properties
+
+tag → A unique identifier to link widgets across screens. Both source and destination Hero must have the same tag.
+
+child → The actual widget that will be animated (e.g., image, icon, container).
+
+
+
+🔹 How it Works
+
+Place a Hero widget around a child widget on Page 1.
+
+Place another Hero with the same tag on Page 2.
+
+When navigating between pages, Flutter automatically animates the transition.
+
+
+
+🔹 Use Case
+
+Image or card preview → full detail page transition.
+
+Smooth navigation effects in apps like gallery, shopping, or social media.
