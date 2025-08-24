@@ -1,0 +1,77 @@
+1. Why Do We Need It?
+
+In real apps, screens need to communicate.
+
+Example: On a shopping app →
+
+Home Page sends the selected product to the Product Details Page.
+
+Product Details Page returns whether the item was added to cart.
+
+This is where passing and returning data comes in.
+
+
+
+2. Passing Data (Send to Next Screen)
+
+When you navigate (push) to a new screen, you can send data forward.
+
+The new screen receives that data (usually through its constructor/parameters).
+
+Example uses:
+
+Sending a username to Profile Page.
+
+Sending product details to Checkout Page.
+
+Sending an ID to load specific data on the next screen.
+
+Key Idea: Passing data = giving the next page some information it needs to display or process.
+
+
+
+3. Returning Data (Send Back to Previous Screen)
+
+Sometimes the next screen should return something to the previous one.
+
+This happens when you want to get a result after a screen closes.
+
+Example uses:
+
+User selects an item → return that item back to Home Page.
+
+Form screen returns user input back to the previous page.
+
+Settings Page returns confirmation of changes.
+
+Key Idea: Returning data = sending a response back before closing the page.
+
+
+
+4. How It Works (Conceptually)
+
+Flutter uses a stack of screens.
+
+Pass Data (Push): When you push a screen, you can attach some info with it.
+
+Return Data (Pop): When you pop (go back), you can return a value to the screen below.
+
+
+
+5. Real-Life Analogy
+
+Passing Data: Like giving someone a note before they leave a room.
+
+Returning Data: They come back and hand you a reply note.
+
+
+
+6. Common Use Cases
+
+Login → Home: Pass the username to show a welcome message.
+
+List → Details: Pass item details to show more info.
+
+Form → Back: Return the filled form data to the previous screen.
+
+Filters → Results: Return selected filter options back to Home Page.
