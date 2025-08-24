@@ -1,0 +1,33 @@
+🔹 What is AnimatedContainer?
+
+The AnimatedContainer is a special container in Flutter that automatically animates changes to its properties (like size, color, padding, margin, border, etc.) over a given duration.
+
+
+
+🔹 Key Properties
+
+duration → Time for the animation (e.g., Duration(seconds: 1)).
+
+curve → Defines the animation style (e.g., Curves.easeInOut).
+
+Other container properties → width, height, color, alignment, decoration (these can change and animate).
+
+
+
+🔹 How it Works
+
+Wrap your widget inside an AnimatedContainer.
+
+Change one or more properties inside setState().
+
+Flutter smoothly animates the difference between the old and new values.
+
+
+
+🔹 Use Case
+
+Animating UI changes without explicitly using AnimationController.
+
+Smooth transitions for theme changes, buttons, cards, or layout adjustments.
+
+Creating subtle effects like growing/shrinking boxes, color fade, or rounded corners transition.
