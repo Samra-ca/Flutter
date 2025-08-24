@@ -1,0 +1,56 @@
+1. What is Push / Pop?
+
+Push: Means navigating forward to a new screen.
+
+Pop: Means going back to the previous screen.
+
+Flutter uses a stack structure (like a pile of plates). Each screen is a "plate."
+
+
+
+2. How the Stack Works
+
+Imagine you have a stack of pages.
+
+When you push, a new page is placed on top.
+
+When you pop, the top page is removed, and you see the one below.
+
+
+
+3. Push (Go Forward to New Screen)
+
+When you push, you tell Flutter:
+“Take me to another screen and show it.”
+
+The previous screen stays in memory, underneath the new one.
+
+Example use: Going from Home → Details Page.
+
+
+
+4. Pop (Go Back to Previous Screen)
+
+When you pop, you remove the current screen from the top of the stack.
+
+This brings you back to the screen below it.
+
+Example use: From Details Page → Back to Home.
+
+
+
+5. Real-Life Analogy
+
+Think of your phone’s browser history:
+
+When you open a new link → Push (new page added on top).
+
+When you press back → Pop (last page removed, go back).
+
+
+
+6. Why Use Push/Pop?
+
+It’s the simplest way to navigate between pages.
+
+Perfect for small apps or when you just need to move forward/backward.
