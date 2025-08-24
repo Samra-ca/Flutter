@@ -1,0 +1,47 @@
+🔹 What is PageView?
+
+PageView is a widget that lets users swipe left and right (or vertically) between different pages/screens, similar to a carousel or intro slider.
+
+
+
+🔹 Key Features
+
+Swipe navigation between multiple pages.
+
+Can be horizontal (default) or vertical.
+
+Works well for onboarding screens, carousels, and tutorials.
+
+Can be controlled with a PageController (jump, animate, get current page).
+
+
+
+🔹 Properties
+
+children → List of widgets (the pages to display).
+
+scrollDirection → Axis.horizontal (default) or Axis.vertical.
+
+controller → A PageController to programmatically control swipes.
+
+onPageChanged → Callback when the page changes.
+
+
+
+🔹 Example Usage (concept only)
+
+Page 1 → Red screen with text
+
+Page 2 → Green screen with text
+
+Page 3 → Blue screen with text
+
+
+
+🔹 Where is it used?
+
+App intro / walkthrough screens.
+
+Swipeable image galleries.
+
+Tab-like navigation with swiping gestures.
