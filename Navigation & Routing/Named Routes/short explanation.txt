@@ -1,0 +1,69 @@
+1. What are Named Routes?
+
+A named route is like giving each screen a unique name (string identifier).
+
+Instead of writing the full MaterialPageRoute every time, you just call the route name.
+
+It makes navigation cleaner and easier, especially in apps with many screens.
+
+
+
+2. Why Use Named Routes?
+
+Keeps code short and organized.
+
+Centralized place (inside MaterialApp) where all routes are defined.
+
+Makes it easier to change or add new routes.
+
+Useful when your app has more than 2-3 screens.
+
+
+
+3. How Named Routes Work (Conceptually)
+
+Define Routes: You create a routes map inside MaterialApp. Each screen gets a unique name.
+
+Navigate with Name: Instead of pushing a widget, you just call the route name.
+
+Go Back: Use Navigator.pop(context) as usual.
+
+
+
+4. Example Flow
+
+Define routes like:
+
+"/" → Home Page
+
+"/details" → Details Page
+
+Navigate using:
+
+Navigator.pushNamed(context, "/details");
+
+Return using:
+
+Navigator.pop(context);
+
+
+
+5. Advantages of Named Routes
+
+Readable: "/details" is clearer than a long MaterialPageRoute.
+
+Centralized: All routes defined in one place → easier maintenance.
+
+Scalable: Perfect for medium-to-large apps with many screens.
+
+Supports Arguments: You can still pass data using route arguments.
+
+
+
+6. Real-Life Analogy
+
+Think of routes as street names in a city:
+
+Instead of saying "Go north 200 meters, then turn right…" (like push with MaterialPageRoute),
+
+You just say "Go to Main Street" (named route).
