@@ -1,0 +1,66 @@
+🔹 What is State Preservation?
+
+State preservation means keeping the data, UI state, and user interactions intact even when:
+
+A widget is rebuilt (due to hot reload, orientation change, etc.)
+
+A user navigates between pages and comes back
+
+The app is minimized or backgrounded
+
+Without state preservation, your widgets will reset each time they rebuild.
+
+
+
+🔹 Types of State in Flutter
+
+Ephemeral State (short-lived)
+
+Belongs to a single widget
+
+Example: Checkbox tick, TextField input while typing
+
+Handled using setState
+
+App State (long-lived / global)
+
+Shared across multiple widgets/screens
+
+Example: User login info, shopping cart, theme, settings
+
+Handled using state management solutions like Provider, Riverpod, Bloc, etc.
+
+
+
+🔹 Common State Preservation Techniques
+1. setState (Basic State Preservation)
+
+For simple UI updates within a widget.
+
+Does not preserve state if the widget is disposed.
+
+2. AutomaticKeepAliveClientMixin
+
+Used inside widgets like PageView or BottomNavigationBar where Flutter disposes off-screen pages.
+
+Ensures pages don’t reset when switching tabs.
+
+3. Restoration APIs (Restorable Properties)
+
+Flutter’s built-in way to preserve state when app is killed or resumed.
+
+Example: Restoring text input after app restart.
+
+4. State Management Solutions
+
+Tools like Provider, Riverpod, Bloc, GetX help preserve and share state across widgets and routes.
+
+
+
+🔹 Why is State Preservation Important?
+
+Prevents loss of user data
+
+Provides smooth user experience
+
+Makes apps feel fast and responsive (no need to reload everything)
